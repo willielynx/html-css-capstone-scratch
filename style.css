@@ -47,7 +47,9 @@
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpeqFryIDQmYe7ElAZVCJfshF6Q9oCEDI-Qw&s')
 }
 
-
+/* #origin {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://thumbs.dreamstime.com/z/video-games-store-display-game-64363854.jpg')
+} */
 
 /* @media (max-width:600px) {
     /* .nav-links li {
