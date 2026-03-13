@@ -29,4 +29,4 @@ What was the hardest part about making your store look good on a mobile phone ve
 4. Semantic Choices:
 Why did you choose a specific HTML5 semantic tag (like <article>, <section>, or <aside>) for a part of your site instead of just using a <div>? 
 
-I used to <div> to just divide content on the webpage but used section to define the main bulk of content in the main
+I used to <div> to just divide content on the webpage but used section to define sections with a bulk of content in the main. Using div to divide different content such as cards made it easier to specifically design for that tiny piece of content.

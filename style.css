@@ -15,14 +15,6 @@
     --arcade-yellow:#F59E0B;
 }
 
-/* .nav-links {
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    color:var(--brand-white);
-    padding-right: 5rem;
-    gap:2rem;
-} */
 
 #nav-links a:hover, #nav-links a.active {
     color:#bdc3c7;
@@ -43,10 +35,13 @@
     text-align:center;
 }
 
-#contact {
+
+
+
+/* #contact {
     background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpeqFryIDQmYe7ElAZVCJfshF6Q9oCEDI-Qw&s');
     background-position: center;
-}
+} */
 
 
 /* #origin {

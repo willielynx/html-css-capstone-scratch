@@ -14,11 +14,16 @@
         rel="stylesheet">
 </head>
 
-<body class="bg-brand-white font-play flex flex-col min-h-screen">
+<!-- using a font from google fonts, made it a variable in tailwind to reuse when needed-->
 
+<body class="bg-brand-white font-play">
+
+    <!-- navbar that includes 4 links going to home, store, about, and contact pages. Making my navbar sticky so it stays at the top of the page. On mobile it centers my business name above the links on the navbar.-->
     <nav class="bg-brand-blue md:flex md:gap-10 justify-between p-4 sticky top-0 z-50 ">
         <a href="home.html" class="md:text-4xl pl-12 text-5xl ml-6"><span class="text-arcade-color">Go</span><span
                 class="text-logo-color">Game</span></a>
+
+                <!--  -->
         <ul id="nav-links" class="flex justify-between items-center text-brand-white md:pr-20 md:gap-8 mx-5 my-0">
             <li><a class="active" href="home.html">Home</a></li>
             <li><a href="store.html">Store</a></li>
@@ -31,13 +36,16 @@
         <div class="hero-content">
             <h1 class="text-3xl md:text-5xl lg:text-7xl font-bold text-logo-color">Get your game on</h1>
             <p class="text-arcade-color my-4 text-xl font-bold">Experience the past and future of gaming</p>
+            <!-- this button has a link to the store page-->
             <a href="store.html"
                 class="rounded-full bg-logo-color py-4 px-5 text-arcade-color font-bold inline-block">Browse our
                 Store</a>
         </div>
     </header>
     <main class="flex-1 mx-auto -mt-20">
+        <!-- using grid for my cards. grid-cols-1 for mobile so it stacks the information on top of each other and grid-cols-4 so i can get 4 cards in one row -->
         <section class="grid grid-cols-1 md:grid-cols-4 gap-30 p-10">
+            <!-- each div has been given psuedo classes of hover to give it some interactibility. they all also have a shadow to make them pop. If hovered they will go upwards. -->
             <div
                 class="bg-white rounded-md text-center shadow-md shadow-black/50 hover:-translate-y-0.5 transition-all p-8 items-center">
                 <h3 class="font-bold text-xl">Board Games</h3>

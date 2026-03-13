@@ -14,7 +14,7 @@
         rel="stylesheet">
 </head>
 
-<body class="bg-brand-white font-play flex flex-col min-h-screen">
+<body class="bg-brand-white font-play">
     <header>
         <nav class="bg-brand-blue md:flex md:gap-10 justify-between p-4 sticky top-0 z-50 ">
             <a href="home.html" class="md:text-4xl pl-12 text-5xl ml-6"><span class="text-arcade-color">Go</span><span
@@ -31,10 +31,16 @@
             <!-- main->tailwind is making rows of 3 and adding images with a description of what products we sell -->
             <main class="mx-auto max-w-7xl">
 
-                <h1 class="text-center text-3xl md:text-5xl p-6 font-bold">Our Products</h1>
+                <div class="relative flex py-5 items-center">
+                    <div class="flex-grow border-t-2 border-arcade-color"></div>
+                <h1 class="text-3xl md:text-5xl text-center p-4 font-bold mx-4">Our Products</h1>
+                    <div class="flex-grow border-t-2 border-logo-color "></div>
+                </div>
 
+                <!-- section that adds a grid for products putting 3 on each row with grid-cols-3 -->
                 <section class="grid md:grid-cols-3 md:p-8  items-center">
 
+                    <!-- using flex flex-col on each card/div to put the information in a neat column -->
                     <div class="flex flex-col items-center p-6">
                         <h2 class="text-3xl p-4 font-bold">Trading Card Games</h2>
 
@@ -42,7 +48,7 @@
                         <p class="p-4 text-center text-lg">Shop our trading card game products including Pokemon, Magic the Gathering, Digimon, Riftbound, Yugioh, and more!</p>
                     </div>
 
-
+                    <!-- each card/div is given a title, an image above to fit the card and text that describes the product/image that the business offers-->
                     <div class="flex flex-col  items-center p-6">
                         <h2 class="text-3xl p-4 font-bold">Retro Games</h2>
 
