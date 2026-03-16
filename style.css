@@ -23,6 +23,7 @@
     transition:color 0.3s ease;
 }
 
+
 .hero {
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://www.koin.com/wp-content/uploads/sites/10/2024/08/DJVG-1.jpeg?strip=1') ;
     background-size:cover;
@@ -35,15 +36,3 @@
     text-align:center;
 }
 
-
-
-
-/* #contact {
-    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpeqFryIDQmYe7ElAZVCJfshF6Q9oCEDI-Qw&s');
-    background-position: center;
-} */
-
-
-/* #origin {
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://thumbs.dreamstime.com/z/video-games-store-display-game-64363854.jpg')
-} */

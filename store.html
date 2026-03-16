@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Play:wght@400;700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body class="bg-brand-white font-play">
@@ -33,7 +34,7 @@
 
                 <div class="relative flex py-5 items-center">
                     <div class="flex-grow border-t-2 border-arcade-color"></div>
-                <h1 class="text-3xl md:text-5xl text-center p-4 font-bold mx-4">Our Products</h1>
+                    <h1 class="text-3xl md:text-5xl text-center p-4 font-bold mx-4">Our Products</h1>
                     <div class="flex-grow border-t-2 border-logo-color "></div>
                 </div>
 
@@ -45,39 +46,47 @@
                         <h2 class="text-3xl p-4 font-bold">Trading Card Games</h2>
 
                         <img src="assets/images/pokemontcg.svg" alt="pokemon tcg logo" class="w-48 h-40 object-contain">
-                        <p class="p-4 text-center text-lg">Shop our trading card game products including Pokemon, Magic the Gathering, Digimon, Riftbound, Yugioh, and more!</p>
+                        <p class="p-4 text-center text-lg">Shop our trading card game products including Pokemon, Magic
+                            the Gathering, Digimon, Riftbound, Yugioh, and more!</p>
                     </div>
 
                     <!-- each card/div is given a title, an image above to fit the card and text that describes the product/image that the business offers-->
                     <div class="flex flex-col  items-center p-6">
                         <h2 class="text-3xl p-4 font-bold">Retro Games</h2>
 
-                        <img src="assets/images/SNES.png" alt="nintendo's SNES console" class="w-48 h-40 object-contain">
-                        <p class="p-4 text-center text-lg">Explore the classics and purchase our retro games and consoles including products from the 80s and 90s.</p>
+                        <img src="assets/images/SNES.png" alt="nintendo's SNES console"
+                            class="w-48 h-40 object-contain">
+                        <p class="p-4 text-center text-lg">Explore the classics and purchase our retro games and
+                            consoles including products from the 80s and 90s.</p>
 
                     </div>
 
                     <div class="flex flex-col items-center p-6">
                         <h2 class="text-3xl p-4 font-bold">Video Games</h2>
 
-                        <img src="assets/images/playstation5.png" alt="picture of a playstation 5" class="w-48 h-40 object-contain">
-                        <p class="p-4 text-center text-lg">Shop the latest video game releases on the Playstation 5, Xbox, PC, and Nintendo Switch 2.</p>
+                        <img src="assets/images/playstation5.png" alt="picture of a playstation 5"
+                            class="w-48 h-40 object-contain">
+                        <p class="p-4 text-center text-lg">Shop the latest video game releases on the Playstation 5,
+                            Xbox, PC, and Nintendo Switch 2.</p>
 
                     </div>
-                    
+
                     <div class="flex flex-col  items-center p-6">
                         <h2 class="text-3xl p-4 font-bold">Collectibles</h2>
 
                         <img src="assets/images/Funko.svg" alt="Funko Pop logo" class="w-48 h-40 object-contain">
-                        <p class="p-4 text-center text-lg">Shop our collectibles with Funko Pops, figurines, plushies, Legos, miniatures, and vintage toys.</p>
+                        <p class="p-4 text-center text-lg">Shop our collectibles with Funko Pops, figurines, plushies,
+                            Legos, miniatures, and vintage toys.</p>
 
                     </div>
 
                     <div class="flex flex-col  items-center p-6">
                         <h2 class="text-3xl p-4 font-bold">Board Games</h2>
 
-                        <img src="assets/images/monopoly.png" alt="picture of popular board games" class="w-48 h-40 object-contain">
-                        <p class="p-4 text-center text-lg">We sell a wide variety of board games including cooperative, strategy, family, and party games.</p>
+                        <img src="assets/images/monopoly.png" alt="picture of popular board games"
+                            class="w-48 h-40 object-contain">
+                        <p class="p-4 text-center text-lg">We sell a wide variety of board games including cooperative,
+                            strategy, family, and party games.</p>
 
                     </div>
 
@@ -85,18 +94,52 @@
                         <h2 class="text-3xl p-4 font-bold">Tabletop Games</h2>
 
                         <img src="assets/images/warhammer.png" alt="Warhammer40k logo" class="w-48 h-40 object-contain">
-                        <p class="p-4 text-center text-lg">Shop our tabletop games including Star Wars, Warhammer, Warhammer40k, and Dungeons and Dragons.</p>
+                        <p class="p-4 text-center text-lg">Shop our tabletop games including Star Wars, Warhammer,
+                            Warhammer40k, and Dungeons and Dragons.</p>
 
                     </div>
                 </section>
 
             </main>
 
-            
 
 
-                <footer class="bg-brand-blue flex justify-center p-8 mt-15 text-brand-white">
+
+            <footer class="bg-brand-blue flex flex-col py-4 px-4 items-center">
+
+                <!-- form using email as a requirement to sign up for the 'newsletter' of my business -->
+                <section id="sign-up" class="flex flex-col items-center gap-4">
+                    <h2 class="text-md md:text-xl  underline text-brand-white">Get exclusive early access to retro
+                        restocks, new releases, and
+                        subscriber-only discounts.</h2>
+                    <form action="#" class="flex flex-wrap justify-center items-center text-black ">
+                        <div>
+                            <input type="email" name="email" id="email" required
+                                class="rounded-full bg-brand-white w-60 h-10 px-4 " placeholder="Email-Address">
+                            <button type="submit"
+                                class="rounded-full text-logo-color bg-arcade-color w-20 h-10 md:m-4 font-bold hover:opacity-80">Sign
+                                up</button>
+                        </div>
+                    </form>
+                </section>
+                <!-- logos that link to the basic website of each social platform, since my fake business doesnt have an actual page -->
+                <section id="socials" class="flex flex-row items-center gap-6 text-brand-white">
+                    <h2 class="text-xl md:text-xl  underline">Socials:</h2>
+                    <div class="flex flex-wrap justify-center gap-10 py-4">
+                        <a href="https://www.x.com" target="_blank" class=""><i class="fa-sharp fa-solid fa-x fa-lg"
+                                style="color: rgb(116, 192, 252);"></i></a>
+                        <a href="https://www.facebook.com" target="_blank"><i
+                                class="fa-brands fa-facebook fa-sharp fa-solid fa-lg"
+                                style="color: rgb(116, 192, 252);"></i></a>
+                        <a href="https://www.instagram.com" target="_blank"><i
+                                class="fa-brands fa-square-instagram fa-xl" style="color: rgb(116, 192, 252);"></i></a>
+                    </div>
+                </section>
+                <div class="w-full text-center pt-4 text-brand-white">
+
                     <p>&copy; 2026 GoGame Design. All rights reserved.</p>
-                </footer>
-                <body>
+                </div>
+            </footer>
+
+            <body>
                 <html>
