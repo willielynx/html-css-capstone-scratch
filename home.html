@@ -7,7 +7,7 @@
     <title>GoGame - Home</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="output.css">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Play:wght@400;700&display=swap"
@@ -21,21 +21,33 @@
 
     <!-- navbar that includes 4 links going to home, store, about, and contact pages. Making my navbar sticky so it stays at the top of the page. On mobile it centers my business name above the links on the navbar.-->
     <nav class="bg-brand-blue md:flex md:gap-10 justify-between p-4 sticky top-0 z-50 ">
-        <a href="home.html" class="md:text-4xl pl-12 text-5xl ml-6"><span class="text-arcade-color">Go</span><span
-                class="text-logo-color">Game</span></a>
-
-        <!--  -->
+        <a href="home.html" class="md:text-4xl pl-12 text-5xl ml-6"><span class="text-arcade-color">Go</span><span class="text-logo-color">Game</span></a>
+                
         <ul id="nav-links" class="flex justify-between items-center text-brand-white md:pr-20 md:gap-8 mx-5 my-0">
+            
+            <li><a class="active" href="home.html">Home</a></li>
+            <div class="relative group">
+                <li><a href="store.html">Store <i class="fa-solid fa-chevron-down text-xs"></i></a></li>
 
-            <li><a class="active hover:text-arcade-color transition-colors duration-300 no-underline font-medium"
-                    href="home.html">Home</a></li>
-            <li><a class="hover:text-arcade-color transition-colors duration-300 no-underline font-medium"
-                    href="store.html">Store</a></li>
-            <li><a class="hover:text-arcade-color transition-colors duration-300 no-underline font-medium"
-                    href="about.html">About</a></li>
-            <li><a class="hover:text-arcade-color transition-colors duration-300 no-underline font-medium"
-                    href="contact.html">Contact</a></li>
-
+                    <div class="absolute z-10 hidden bg-gray-500 group-hover:block">
+                        <div class=" bg-logo-color shadow-lg">
+                            <div class="dropdown-menu">
+                                <ul class="w-max px-4">
+                                    <li><a href="#">Trading Card Games</a></li>
+                                    <li><a href="#">Retro Video Games</a></li>
+                                    <li><a href="#">Retro Consoles</a></li>
+                                    <li><a href="#">Pre-Owned Video Games</a></li>
+                                    <li><a href="#">New Video Games</a></li>
+                                    <li><a href="#">Collectibles</a></li>
+                                    <li><a href="#">Board Games</a></li>
+                                    <li><a href="#">Tabletop Games</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
 
@@ -118,6 +130,7 @@
         </div>
     </footer>
 
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </body>
 
 </html>

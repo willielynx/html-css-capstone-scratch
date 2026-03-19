@@ -7,7 +7,6 @@
     <title>GoGame - Store</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="output.css">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Play:wght@400;700&display=swap"
@@ -17,13 +16,35 @@
 
 <body class="bg-brand-white font-play">
     <header>
+
         <nav class="bg-brand-blue md:flex md:gap-10 justify-between p-4 sticky top-0 z-50 ">
             <a href="home.html" class="md:text-4xl pl-12 text-5xl ml-6"><span class="text-arcade-color">Go</span><span
                     class="text-logo-color">Game</span></a>
-                    
+
             <ul id="nav-links" class="flex justify-between items-center text-brand-white md:pr-20 md:gap-8 mx-5 my-0">
                 <li><a href="home.html">Home</a></li>
-                <li><a class="active" href="store.html">Store</a></li>
+
+                <div class="relative group">
+                <li><a class="active" href="store.html">Store <i class="fa-solid fa-chevron-down text-xs"></i></a></li>
+
+                    <div class="absolute z-10 hidden bg-gray-500 group-hover:block">
+                        <div class=" bg-logo-color shadow-lg">
+                            <div class="dropdown-menu">
+                                <ul class="w-max px-4 ">
+                                    <li><a href="#">Trading Card Games</a></li>
+                                    <li><a href="#">Retro Video Games</a></li>
+                                    <li><a href="#">Retro Consoles</a></li>
+                                    <li><a href="#">Pre-Owned Video Games</a></li>
+                                    <li><a href="#">New Video Games</a></li>
+                                    <li><a href="#">Collectibles</a></li>
+                                    <li><a href="#">Board Games</a></li>
+                                    <li><a href="#">Tabletop Games</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -51,7 +72,7 @@
                             the Gathering, Digimon, Riftbound, Yugioh, and more!</p>
 
                             <div class="flex flex-row items-center gap-4">
-                            <a href="#"><button class="rounded-full bg-logo-color px-4">View Products</button></a>
+                            <a href="#"><button class="rounded-full bg-logo-color px-4 hover:bg-arcade-color">View Products</button></a>
                             <p class=" text-lg">Price Range: <br>
                                 Booster Boxes: $80-$120 <br>
                                 Booster Packs: $5-$9
@@ -218,5 +239,6 @@
                 </div>
             </footer>
 
+            <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
             <body>
                 <html>
