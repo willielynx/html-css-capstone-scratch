@@ -17,7 +17,7 @@
 
 
 #nav-links a:hover, #nav-links a.active {
-    color:#bdc3c7;
+    color:var(--arcade-yellow);
     text-decoration: none;
     font-weight:500;
     transition:color 0.3s ease;
